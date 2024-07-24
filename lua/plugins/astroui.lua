@@ -2,7 +2,7 @@ return {
   "AstroNvim/astroui",
   opts = {
     -- change colorscheme
-    colorscheme = "tokyonight-night",
+    colorscheme = "moonfly",
     icons = {
       -- configure the loading of the lsp in the status line
       LSPLoading1 = "⠋",
