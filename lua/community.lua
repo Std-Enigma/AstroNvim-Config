@@ -4,6 +4,7 @@ return {
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.completion.cmp-cmdline" },
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
+	{ import = "astrocommunity.colorscheme.moonfly" },
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 	{ import = "astrocommunity.media.cord-nvim" },
 	{ import = "astrocommunity.recipes.neovide" },
