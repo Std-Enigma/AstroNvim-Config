@@ -3,6 +3,7 @@ return {
 	{ import = "astrocommunity.utility.noice-nvim" },
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
+	{ import = "astrocommunity.motion.vim-matchup" },
 	{ import = "astrocommunity.lsp.inc-rename-nvim" },
 	{ import = "astrocommunity.completion.cmp-cmdline" },
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
