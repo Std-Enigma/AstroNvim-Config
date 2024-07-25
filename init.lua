@@ -15,6 +15,7 @@ require("lazy").setup({
       maplocalleader = ",", -- Ensure the local leader key is configured before Lazy setup process
     },
   },
+  { import = "plugins.astronvim" },
   { import = "community" },
   { import = "plugins" },
 }, {
