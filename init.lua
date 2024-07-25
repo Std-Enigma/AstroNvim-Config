@@ -16,7 +16,6 @@ require("lazy").setup({
     },
   },
   { import = "plugins.astronvim" },
-  { import = "community" },
   { import = "plugins" },
 }, {
   install = { colorscheme = { "moonfly", "astrodark", "habamax" } },
