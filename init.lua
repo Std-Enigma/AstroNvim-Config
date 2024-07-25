@@ -18,7 +18,7 @@ require("lazy").setup({
   { import = "community" },
   { import = "plugins" },
 }, {
-  install = { colorscheme = { "tokyonight", "astrodark", "habamax" } },
+  install = { colorscheme = { "moonfly", "astrodark", "habamax" } },
   ui = { backdrop = 100 },
   defaults = { lazy = true },
   performance = {
