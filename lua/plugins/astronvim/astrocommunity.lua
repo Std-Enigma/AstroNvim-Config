@@ -7,6 +7,7 @@ return {
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
 	{ import = "astrocommunity.colorscheme.moonfly" },
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
+	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
 	{ import = "astrocommunity.media.cord-nvim" },
 	{ import = "astrocommunity.recipes.neovide" },
 	{ import = "astrocommunity.recipes.vscode-icons" },
