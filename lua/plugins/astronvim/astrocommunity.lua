@@ -10,7 +10,6 @@ return {
 	{ import = "astrocommunity.colorscheme.moonfly" },
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
-	{ import = "astrocommunity.neovim-lua-development.lazydev-nvim" },
 	{ import = "astrocommunity.media.cord-nvim" },
 	{ import = "astrocommunity.diagnostics.trouble-nvim" },
 	{ import = "astrocommunity.recipes.vscode" },
