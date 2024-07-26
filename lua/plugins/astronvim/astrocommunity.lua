@@ -1,17 +1,29 @@
 return {
 	"AstroNvim/astrocommunity",
-	{ import = "astrocommunity.utility.noice-nvim" },
+
+	-- Motion plugins
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
 	{ import = "astrocommunity.motion.vim-matchup" },
+
+	-- UI
 	{ import = "astrocommunity.lsp.inc-rename-nvim" },
-	{ import = "astrocommunity.completion.cmp-cmdline" },
+	{ import = "astrocommunity.utility.noice-nvim" },
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
+	{ import = "astrocommunity.diagnostics.trouble-nvim" },
+	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
+
+	-- Colorschemes
 	{ import = "astrocommunity.colorscheme.moonfly" },
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
-	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
+
+	-- Media plugins
 	{ import = "astrocommunity.media.cord-nvim" },
-	{ import = "astrocommunity.diagnostics.trouble-nvim" },
+
+	-- Completion
+	{ import = "astrocommunity.completion.cmp-cmdline" },
+
+	-- Recipes
 	{ import = "astrocommunity.recipes.vscode" },
 	{ import = "astrocommunity.recipes.neovide" },
 	{ import = "astrocommunity.recipes.vscode-icons" },
