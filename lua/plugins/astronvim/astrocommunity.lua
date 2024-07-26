@@ -12,6 +12,7 @@ return {
 	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
 	{ import = "astrocommunity.neovim-lua-development.lazydev-nvim" },
 	{ import = "astrocommunity.media.cord-nvim" },
+	{ import = "astrocommunity.diagnostics.trouble-nvim" },
 	{ import = "astrocommunity.recipes.vscode" },
 	{ import = "astrocommunity.recipes.neovide" },
 	{ import = "astrocommunity.recipes.vscode-icons" },
