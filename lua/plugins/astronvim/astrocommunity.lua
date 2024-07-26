@@ -11,6 +11,7 @@ return {
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
 	{ import = "astrocommunity.media.cord-nvim" },
+	{ import = "astrocommunity.recipes.vscode" },
 	{ import = "astrocommunity.recipes.neovide" },
 	{ import = "astrocommunity.recipes.vscode-icons" },
 	{ import = "astrocommunity.recipes.heirline-vscode-winbar" },
