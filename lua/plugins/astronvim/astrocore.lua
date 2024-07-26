@@ -1,6 +1,22 @@
 return {
   "AstroNvim/astrocore",
   opts = {
+    autocmds = {
+      autohidetabline = {
+        {
+          event = "User",
+          pattern = "AstroBufsUpdated", -- triggered when vim.t.bufs is updated
+          desc = "Hide tabline when only one buffer and one tab",
+          callback = function()
+            local new_showtabline = #vim.t.bufs > 1 and 2 or 1
+            if new_showtabline ~= vim.opt.showtabline:get() then
+              vim.opt.showtabline = new_showtabline
+            end
+          end,
+        },
+      },
+    },
+    -- stylua: ignore
     mappings = {
       n = {
         -- navigate buffer tabs with `H` and `L`
