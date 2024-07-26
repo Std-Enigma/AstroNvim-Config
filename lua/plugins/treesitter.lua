@@ -6,6 +6,7 @@ return {
       "lua",
       "rust",
       "java",
+      "norg",
       "python",
       "c_sharp",
     })
