@@ -18,6 +18,10 @@ return {
     },
     -- stylua: ignore
     mappings = {
+      t = {
+        -- Escape terminal mode
+        ["<C-Q>"] = { "<C-\\><C-N>", desc = "Escape terminal mode" },
+      },
       n = {
         -- navigate buffer tabs with `H` and `L`
         L = {
