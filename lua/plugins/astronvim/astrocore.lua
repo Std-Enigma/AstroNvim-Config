@@ -1,6 +1,11 @@
 return {
   "AstroNvim/astrocore",
   opts = {
+    options = {
+      opt = {
+        guifont = "JetBrainsMono Nerd Font Mono:h12",
+      },
+    },
     autocmds = {
       autohidetabline = {
         {
