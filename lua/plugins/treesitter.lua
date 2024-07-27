@@ -7,6 +7,7 @@ return {
       "rust",
       "java",
       "norg",
+      "norg_meta",
       "python",
       "c_sharp",
     })
