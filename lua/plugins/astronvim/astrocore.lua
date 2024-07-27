@@ -7,6 +7,16 @@ return {
       },
     },
     autocmds = {
+      norg_settings = {
+        {
+          event = "Filetype",
+          pattern = "norg",
+          callback = function()
+            vim.keymap.set("i", "<C-CR>", "<Plug>(neorg.itero.next-iteration)", { buffer = true })
+            vim.keymap.set("n", "<C-CR>", "<Plug>(neorg.esupports.hop.hop-link.vsplit)")
+          end,
+        }
+      },
       autohidetabline = {
         {
           event = "User",
