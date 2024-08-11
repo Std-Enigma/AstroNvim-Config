@@ -12,6 +12,7 @@ return {
           event = "Filetype",
           pattern = "norg",
           callback = function()
+						vim.opt_local.conceallevel = 2
             vim.keymap.set("i", "<C-CR>", "<Plug>(neorg.itero.next-iteration)", { buffer = true })
             vim.keymap.set("n", "<C-CR>", "<Plug>(neorg.esupports.hop.hop-link.vsplit)")
           end,
