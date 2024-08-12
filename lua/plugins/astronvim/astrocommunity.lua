@@ -29,6 +29,5 @@ return {
 	{ import = "astrocommunity.recipes.vscode-icons" },
 	{ import = "astrocommunity.recipes.heirline-vscode-winbar" },
 	{ import = "astrocommunity.recipes.telescope-nvchad-theme" },
-	{ import = "astrocommunity.recipes.telescope-lsp-mappings" },
 	{ import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 }
