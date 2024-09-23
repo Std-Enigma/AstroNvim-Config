@@ -12,6 +12,7 @@ return {
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
 	{ import = "astrocommunity.diagnostics.trouble-nvim" },
 	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
+	{ import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
 
 	-- Colorschemes
 	{ import = "astrocommunity.colorscheme.moonfly" },
