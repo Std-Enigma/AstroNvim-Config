@@ -5,6 +5,10 @@ return {
 	{ import = "astrocommunity.code-runner.sniprun" },
 	{ import = "astrocommunity.code-runner.overseer-nvim" },
 	{ import = "astrocommunity.code-runner.compiler-nvim" },
+
+	-- Editing support
+	{ import = "astrocommunity.search.grug-far-nvim" },
+
 	-- Motion plugins
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
