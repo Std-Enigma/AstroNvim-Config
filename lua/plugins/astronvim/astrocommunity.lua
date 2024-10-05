@@ -10,14 +10,14 @@ return {
 	{ import = "astrocommunity.search.grug-far-nvim" },
 
 	-- Motion plugins
-	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
 	{ import = "astrocommunity.motion.vim-matchup" },
 	{ import = "astrocommunity.motion.nvim-spider" },
+	{ import = "astrocommunity.motion.nvim-surround" },
 
 	-- UI
-	{ import = "astrocommunity.lsp.inc-rename-nvim" },
 	{ import = "astrocommunity.utility.noice-nvim" },
+	{ import = "astrocommunity.lsp.inc-rename-nvim" },
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
 	{ import = "astrocommunity.diagnostics.trouble-nvim" },
 	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
