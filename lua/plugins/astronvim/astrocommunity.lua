@@ -24,6 +24,7 @@ return {
 
 	-- Colorschemes
 	{ import = "astrocommunity.colorscheme.moonfly" },
+	{ import = "astrocommunity.colorscheme.catppuccin" },
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
 	-- Media plugins
