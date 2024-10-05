@@ -11,6 +11,7 @@ return {
 
 	-- Motion plugins
 	{ import = "astrocommunity.motion.mini-ai" },
+	{ import = "astrocommunity.motion.mini-move" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
 	{ import = "astrocommunity.motion.vim-matchup" },
 	{ import = "astrocommunity.motion.nvim-spider" },
