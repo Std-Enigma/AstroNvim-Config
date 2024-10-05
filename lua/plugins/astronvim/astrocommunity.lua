@@ -6,8 +6,9 @@ return {
 	{ import = "astrocommunity.code-runner.overseer-nvim" },
 	{ import = "astrocommunity.code-runner.compiler-nvim" },
 
-	-- Editing support
+	-- Editor
 	{ import = "astrocommunity.search.grug-far-nvim" },
+	{ import = "astrocommunity.file-explorer.oil-nvim" },
 
 	-- Motion plugins
 	{ import = "astrocommunity.motion.mini-ai" },
