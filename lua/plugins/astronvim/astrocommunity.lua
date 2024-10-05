@@ -10,6 +10,7 @@ return {
 	{ import = "astrocommunity.search.grug-far-nvim" },
 
 	-- Motion plugins
+	{ import = "astrocommunity.motion.mini-ai" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
 	{ import = "astrocommunity.motion.vim-matchup" },
 	{ import = "astrocommunity.motion.nvim-spider" },
