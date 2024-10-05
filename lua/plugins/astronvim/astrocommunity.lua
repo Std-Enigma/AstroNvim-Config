@@ -29,6 +29,7 @@ return {
 
 	-- Media plugins
 	{ import = "astrocommunity.media.cord-nvim" },
+	{ import = "astrocommunity.media.codesnap-nvim" },
 
 	-- Completion
 	{ import = "astrocommunity.completion.cmp-cmdline" },
