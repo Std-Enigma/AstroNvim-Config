@@ -13,6 +13,7 @@ return {
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.motion.tabout-nvim" },
 	{ import = "astrocommunity.motion.vim-matchup" },
+	{ import = "astrocommunity.motion.nvim-spider" },
 
 	-- UI
 	{ import = "astrocommunity.lsp.inc-rename-nvim" },
