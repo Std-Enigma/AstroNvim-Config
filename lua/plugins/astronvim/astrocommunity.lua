@@ -21,6 +21,7 @@ return {
 	-- UI
 	{ import = "astrocommunity.utility.noice-nvim" },
 	{ import = "astrocommunity.lsp.inc-rename-nvim" },
+	{ import = "astrocommunity.lsp.lsp-signature-nvim" },
 	{ import = "astrocommunity.scrolling.vim-smoothie" },
 	{ import = "astrocommunity.diagnostics.trouble-nvim" },
 	{ import = "astrocommunity.editing-support.stickybuf-nvim" },
