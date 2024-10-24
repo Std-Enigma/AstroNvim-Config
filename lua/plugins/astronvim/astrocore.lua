@@ -48,16 +48,10 @@ return {
           function() require("astrocore.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
           desc = "Previous buffer",
         },
-
-        -- Buffer picker for closing them
-        ["<Leader>bD"] = {
-          function()
-            require("astroui.status.heirline").buffer_picker(
-              function(bufnr) require("astrocore.buffer").close(bufnr) end
-            )
-          end,
-          desc = "Pick to close",
-        },
+      },
+      v = {
+        -- Exectute the selected code with sniprun
+        ["<Leader>r"] = { ":'<,'>SnipRun<CR>", desc = "Run selection", silent = true }
       },
     },
   },
