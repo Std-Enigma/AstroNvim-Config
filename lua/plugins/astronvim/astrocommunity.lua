@@ -28,9 +28,9 @@ return {
 	{ import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
 
 	-- Colorschemes
-	{ import = "astrocommunity.colorscheme.moonfly" },
 	{ import = "astrocommunity.colorscheme.catppuccin" },
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
+	{ import = "astrocommunity.colorscheme.vim-moonfly-colors" },
 
 	-- Media plugins
 	{ import = "astrocommunity.media.cord-nvim" },
