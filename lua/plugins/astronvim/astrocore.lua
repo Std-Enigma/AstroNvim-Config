@@ -3,7 +3,7 @@ return {
   opts = {
     options = {
       opt = {
-        guifont = "JetBrainsMono Nerd Font Mono:h12",
+        guifont = "JetBrainsMono Nerd Font Mono:h10",
       },
     },
     autocmds = {
