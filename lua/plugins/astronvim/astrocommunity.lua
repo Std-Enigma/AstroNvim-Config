@@ -39,10 +39,31 @@ return {
 	-- Completion
 	{ import = "astrocommunity.completion.cmp-cmdline" },
 
+	-- Language packs
+	{ import = "astrocommunity.pack.cs" },
+	{ import = "astrocommunity.pack.go" },
+	{ import = "astrocommunity.pack.cpp" },
+	{ import = "astrocommunity.pack.lua" },
+	{ import = "astrocommunity.pack.sql" },
+	{ import = "astrocommunity.pack.bash" },
+	{ import = "astrocommunity.pack.wgsl" },
+	{ import = "astrocommunity.pack.rust" },
+	{ import = "astrocommunity.pack.java" },
+	{ import = "astrocommunity.pack.godot" },
+	{ import = "astrocommunity.pack.python" },
+	{ import = "astrocommunity.pack.typescript" },
+
+	-- File format packs
+	{ import = "astrocommunity.pack.yaml" },
+	{ import = "astrocommunity.pack.json" },
+	{ import = "astrocommunity.pack.markdown" },
+	{ import = "astrocommunity.pack.html-css" },
+
 	-- Recipes
 	{ import = "astrocommunity.recipes.vscode" },
 	{ import = "astrocommunity.recipes.neovide" },
 	{ import = "astrocommunity.recipes.vscode-icons" },
+	{ import = "astrocommunity.recipes.cache-colorscheme" },
 	{ import = "astrocommunity.recipes.heirline-vscode-winbar" },
 	{ import = "astrocommunity.recipes.telescope-nvchad-theme" },
 	{ import = "astrocommunity.recipes.heirline-nvchad-statusline" },
